@@ -38,11 +38,13 @@ exclude = '.venv'
 [tool.isort]
 profile = "black"
 multi_line_output = 3
-skip_gitignore=true
+skip_gitignore = true
 
 [tool.pytest.ini_options]
 addopts = "--doctest-modules"
 python_files = "test_*.py tests_*.py"
 
-[mypy]
-ignore_missing_imports = true
+[tool.mypy]
+disallow_untyped_defs = true
+warn_return_any = true
+warn_unused_configs = true
