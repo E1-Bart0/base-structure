@@ -1,4 +1,4 @@
-name: Linters, CodeFormators, Tests
+name: Linters and Tests
 
 # Controls when the workflow will run
 on:
