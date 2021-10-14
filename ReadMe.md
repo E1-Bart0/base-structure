@@ -2,6 +2,10 @@
 
 To start using this, _poetry_ should be installed
 
+```
+curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
+```
+
 **Install dependencies:**
 ```
 poetry install
