@@ -1,0 +1,22 @@
+version: '3'
+services:
+
+  my-app:
+    container_name: my-app
+    image: my-app
+    build:
+      context: .
+      args:
+        POETRY_VERSION: ${POETRY_VERSION}
+        ENV: ${ENV}
+    ports:
+      - "${APP_HOST}:${APP_PORT}:8000"
+    expose:
+      - 8000
+    networks:
+      - my-app-network
+    command: "python main.py"
+
+networks:
+  my-app-network:
+    external: false
