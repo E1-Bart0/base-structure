@@ -1,4 +1,5 @@
 # It's a base structure for my all projects
+![Actions Status](https://github.com/E1-Bart0/base-structure/actions/workflows/tests.yml/badge.svg)
 
 To start using this, _poetry_ should be installed
 
