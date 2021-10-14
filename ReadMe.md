@@ -7,20 +7,20 @@ To start using this, _poetry_ should be installed
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
 ```
 
-**Install dependencies:**
+**Install Dependencies:**
 ```
 poetry install
 ```
 
-## Main dependencies
+## Main Dependencies
 
-**Linters and code formatters that using here:**
+**Linters and CodeFormatters that using here:**
 - Flake8 with some plugins:
 - Pep8-naming
 - Isort
 - MyPy
 
-**For tests using:**
+**For Tests using:**
 - Pytest
 
 **To start using pre-commit:**
